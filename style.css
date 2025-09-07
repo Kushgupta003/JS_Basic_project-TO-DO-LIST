@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: burlywood; */
+    background-image: url(/IMG/annie-spratt-Ki0-ea-Hgx4-unsplash.jpg);
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container{
+    width: 400px;
+    /* height: 200px; */
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+.input{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    margin: auto;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: space-evenly;
+}
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    background-color: lightgrey;
+}
+button{
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    /* cursor: pointer; */
+    background-color: cadetblue;
+    color: white;
+    font-weight: 500;
+}
+.text{
+    max-width: 100%;
+    word-wrap: break-word;
+
+}
+.text ul{
+    position: relative;
+    background-color: lightsteelblue;
+    font-size: 20px;
+    text-align: left;
+    padding: 8px;
+    padding-right: 19px;
+    margin-top: 10px;
+    word-wrap: break-word;
+    width: 100%;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+}
+.text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
